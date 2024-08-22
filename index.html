@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Filipe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#formação">Formação e Idiomas</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="texto-sobre">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Meu nome é Filipe, moro no Rio de Janeiro - RJ,
+                    tenho interesse em TI e idiomas e estudante de Análise e Desenvolvimento de Sistemas.</p>
+            </div>
+        </div>
+    </section>
+    <section id="formação" class="formação">
+        <div class="container">
+            <h2>Formação e Idiomas</h2>
+            <p>Dez/2023 - Atual: Análise e Desenvolvimento de Sistemas - UNINTER</p>
+            <p>2013 - 2014 - Técnico em Administração - Senac Botafogo - RJ</p>
+            <p>2009 - 2011 - Ensino Médio - Colégio Estadual André Maurois - RJ</p>
+            <p>Idiomas: Inglês - Avançado, Espanhol - Intermediário</p>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Sistema bancário com POO em Python</p>
+                <p>
+                    <a href="http://github.com/filipe-29/sistemaBancarioPOO/blob/master/sistemabancariopoo.py">Veja no Github</a>
+                </p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Pokedex com 151 pokemons e informações com HTML, CSS e JavaScript</p>
+                <p>
+                    <a href="http://github.com/filipe-29/pokedox2.0">Veja no Github</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:rodriguesfilipe99@gmail.com">rodriguesfilipe99@gmail.com</a></p>
+        </div>
+        <div class="container">
+            <h3>Ou Fale Comigo</h3>
+            <form action="contactus.php" method="post">
+                <p>Nome</p>
+                <p><input type="text"></p>
+
+                <p>E-mail</p>
+                <p><input type="text"></p>
+
+                <p>Mensagem</p>   
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+        </div>
+    </section>        
+</body>
+</html>
